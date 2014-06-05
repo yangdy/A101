@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="theme" format="reference" />
+    <attr name="fontFamily" format="string" />
+    <attr name="fontWeight" format="string" />
+    <attr name="fontExtension" format="string" />
+    <attr name="textAppearance" format="integer">
+        <enum name="none" value="0" />
+        <enum name="dark" value="1" />
+        <enum name="light" value="2" />
+    </attr>
+    
+	<attr name="cornerRadius" format="dimension" />
+	<attr name="borderWidth" format="dimension" />
+	<attr name="size" format="dimension" />
+	
+	<attr name="dotMargin" format="dimension" />
+	
+	<declare-styleable name="FlatButton">
+		<attr name="theme" />
+		<attr name="fontFamily" />
+		<attr name="fontWeight" />
+		<attr name="fontExtension" />
+		<attr name="textAppearance" />
+		<attr name="cornerRadius" />
+		
+		<attr name="blockButtonEffectHeight" format="dimension" />
+	</declare-styleable>
+	
+	
+
+</resources>
